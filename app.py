@@ -627,4 +627,3 @@ st.markdown("""
     <p style='font-size: 0.8rem;'>Created for high school students preparing for the SAT</p>
 </div>
 """, unsafe_allow_html=True)
-
