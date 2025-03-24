@@ -141,7 +141,7 @@ def format_message(message):
         if "✅ Correct!" in content:
             content = content.replace("✅ Correct!", '<span class="correct">✅ Correct!</span>')
         elif "❌ That's not correct" in content:
-            content = content.replace("❌ That's not correct", '<span class="incorrect">❌ That's not correct</span>')
+            content = content.replace("❌ That's not correct", "<span class=\"incorrect\">❌ That's not correct</span>")
         
         # Check for achievements
         if "🏆 Achievement unlocked:" in content:
