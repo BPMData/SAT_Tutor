@@ -1,4 +1,3 @@
 streamlit
-sqlite3
 openai
-tiktoken
+tiktoken>=0.3.0
